@@ -12,7 +12,7 @@ class TasksController < ApplicationController
   end
 
   def create
-    @task = Task.new(task_params)
+    @task = Task.new(tasks_params)
 
     if @task.save
       flash[:success] = 'Task が正常に登録されました'
@@ -30,7 +30,7 @@ class TasksController < ApplicationController
   def update
     @task = Task.find(params[:id])
 
-    if @task.update(message_params)
+    if @task.update(tasks_params)
       flash[:success] = 'Task は正常に更新されました'
       redirect_to @task
     else
@@ -48,7 +48,7 @@ class TasksController < ApplicationController
   end
   
   # Strong Parameter
-  def task_params
+  def tasks_params
     params.require(:task).permit(:task)
   end
 end
