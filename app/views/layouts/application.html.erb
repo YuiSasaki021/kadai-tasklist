@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MessageBoard</title>
+    <title>TaskList</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -17,7 +17,7 @@
     <%= render 'layouts/navbar' %>
     
     <div class="container">
-      <%= render 'layouts/flash_tasks' %>
+      <%= render 'layouts/flash_message' %>
 
       <%= yield %>
     </div>
