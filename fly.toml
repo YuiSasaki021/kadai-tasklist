@@ -1,6 +1,6 @@
-# fly.toml file generated for small-glade-2901 on 2022-12-07T06:44:58Z
+# fly.toml file generated for summer-sea-1214 on 2022-12-07T07:30:16Z
 
-app = "small-glade-2901"
+app = "summer-sea-1214"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
