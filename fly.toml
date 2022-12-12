@@ -1,6 +1,6 @@
-# fly.toml file generated for summer-sea-1214 on 2022-12-07T07:30:16Z
+# fly.toml file generated for still-frost-26 on 2022-12-12T02:28:02Z
 
-app = "summer-sea-1214"
+app = "still-frost-26"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
